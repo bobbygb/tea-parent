@@ -7,6 +7,9 @@ http://192.168.1.103:8081/nexus  admin/admin123
 #zookeeper
 ./zkServer.sh start
 
+#mysql
+mysql -uroot -proot
+
 #redis
 ./redis-trib.rb create --replicas 1 127.0.0.1:7000 127.0.0.1:7001 127.0.0.1:7002 127.0.0.1:7003 127.0.0.1:7004 127.0.0.1:7005
 
